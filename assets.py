@@ -8,6 +8,12 @@ def carregar_assets():
     assets['boneco1'] = pygame.image.load("assets/Boneco1.png").convert_alpha()
     assets['boneco2'] = pygame.image.load("assets/Boneco2.png").convert_alpha()
     
+    assets['boneco_gordinho1'] = pygame.image.load("assets/BonecoGordinho1.png").convert_alpha()
+    assets['boneco_gordinho2'] = pygame.image.load("assets/BonecoGordinho2.png").convert_alpha()
+    
+    assets['boneco_gordo1'] = pygame.image.load("assets/BonecoGordo1.png").convert_alpha()
+    assets['boneco_gordo2'] = pygame.image.load("assets/BonecoGordo2.png").convert_alpha()
+    
     # Terreno 
     assets['terreno1'] = pygame.image.load("assets/Terreno01.png").convert()
     assets['terreno2'] = pygame.image.load("assets/Terreno02.png").convert()
